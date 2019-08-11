@@ -12,6 +12,18 @@ Or in other words:
 4. Repeat above steps for all documents and sort the words.
 
 ## Initial stages of text processing
-- Convert plural to singular
-- Convert to lowercase
-- Perform tokenization
+* Convert plural to singular
+* Convert to lowercase
+* Tokenization
+  - Cut character sequence into word tokens
+    - Deal with "John's", a-state-of-art-solution
+* Normalization
+  - Map text and query term to same form
+    - You want U.S.A and USA to match
+* Stemming
+  - We may wish different forms of a root to match
+    - authorize, authorization
+* Stop words
+  - We may omit very common words (or not)
+    - the, a, to, of
+  
