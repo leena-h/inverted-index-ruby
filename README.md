@@ -13,7 +13,9 @@ Or in other words:
 
 ## Initial stages of text processing
 * Convert plural to singular
+  - apples to apple
 * Convert to lowercase
+  - Castle to castle
 * Tokenization
   - Cut character sequence into word tokens
     - Deal with "John's", a-state-of-art-solution
