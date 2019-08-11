@@ -7,6 +7,11 @@ Or in other words:
 
 ## Contstruction of Inverted Index 
 1. Fetch all documents and gather the words from each document
-3. Modify each word to be lowercase and singular
+2. Process each word (e.g. convert to lowercase)
 3. Check for each word, if it is present then add reference of document to index else create new entry in index for that word.
 4. Repeat above steps for all documents and sort the words.
+
+## Initial stages of text processing
+- Convert plural to singular
+- Convert to lowercase
+- Perform tokenization
