@@ -1,4 +1,4 @@
-# Inverted Index
+# 📄 Inverted Index
 It is a data structure that stores mapping from words to documents or set of documents i.e. directs you from word to document. 
 
 Or in other words:
